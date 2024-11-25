@@ -1,0 +1,16 @@
+buildscript {
+    repositories {
+        google()  // Google repository for Android dependencies
+        mavenCentral()  // Maven Central for other dependencies
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.4'  // Android Gradle plugin
+    }
+}
+
+allprojects {
+    repositories {
+        google()  // Google repository for Android dependencies
+        mavenCentral()  // Maven Central for other dependencies
+    }
+}
