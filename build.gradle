@@ -1,5 +1,0 @@
-// Sadece repositories tanımlayın
-repositories {
-    google()
-    mavenCentral()
-}
